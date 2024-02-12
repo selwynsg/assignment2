@@ -35,9 +35,9 @@ class LoginFragment : Fragment() {
                     findNavController().navigate(R.id.action_loginFragment_to_productListFragment)
                 } else {
                     Toast.makeText(context, "Incorrect username or password", Toast.LENGTH_SHORT).show()
-                    username.text.clear()
-                    password.text.clear()
                 }
+                username.text.clear()
+                password.text.clear()
             }
         }
     }
