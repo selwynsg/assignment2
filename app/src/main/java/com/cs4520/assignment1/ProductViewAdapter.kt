@@ -24,7 +24,7 @@ class ProductViewAdapter(private val products: List<Product>) :
                 expiryDateTextView.visibility = View.GONE
             } else {
                 expiryDateTextView.visibility = View.VISIBLE
-                expiryDateTextView.text = itemView.context.getString(R.string.expires,product.expiryDate.toString())
+                expiryDateTextView.text = itemView.context.getString(R.string.expires,product.expiryDate)
             }
 
             val (backgroundColor, imageResId) = when (product) {

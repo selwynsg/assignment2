@@ -3,7 +3,7 @@
     <string name="username">username</string>
     <string name="password">password</string>
     <string name="login">login</string>
-    <string name="price">Price: $%1$s</string>
+    <string name="price">Price: $ %1$s</string>
     <string name="expires">Expires: %1$s</string>
     <string name="content">image</string>
 </resources>
